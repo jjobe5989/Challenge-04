@@ -1,4 +1,6 @@
-DOCTYPE html>
+
+
+<!DOCTYPE html>
 
 <html>
     <head>
@@ -7,39 +9,69 @@ DOCTYPE html>
         <link rel="stylesheet" href="./assets/style.css">
     </head>
     <body>
-        <!-----main outer div---->
+        <!-- main outer div -->
         <div class="outer-container">
         
-        
-        </div>
-         
-        
-        <!-- top bar section-->
+            <!-- top bar section -->
             <div class="top-bar">
                 <button>View Highscores</button>
-                <p>timer 00:00</p>
-
+                <p>timer 00:00</p> 
             </div>
-
             
-            <!--inner div-->
+            <!-- inner div -->
             <div class="inner-container">
+                
+                <!-- main header/quiz intro -->
+                <header class="quiz-intro">
+                    <h1>Welcome to the quiz</h1>
+                    <p>To get started, start the quiz!!</p>
+                    <button>Start Quiz!</button>
+                </header>
+        
+        
+                <!-- main content -->
+                <main>
+                    <!-- ------------- -->
+                    <!-- !! PHASE 2 !! -->
+                    <!-- ------------- -->
+                    
+                    <section class="question-screen">
+                        <h2>Question Here</h2>
+                        <ul>
+                            <!-- !! THIS WILL BE GENERATED IN JAVASCRIPT !! -->
+                            <li>Answer 1</li>
+                            <li>Answer 2</li>
+                            <li>Answer 3</li>
+                            <li>Answer 4</li>
+                        </ul>
+                    </section>
+                        <!-- ------------- -->
+                        <!-- !! PHASE 3 !! -->
+                        <!-- ------------- -->
+                        <section class="quiz-finish-screen">
+                            <h2>Quiz Finished!</h2>
+                            <p>Your Score: 00</p>
+                            <div>
+                                <label for="">Enter initials</label>
+                                <input type="text">
+                                <button>Submit</button>
+                            </div>
+                        </section>
+
+                        <!-- ------------- -->
+                        <!-- !! PHASE 2 !! -->
+                        <!-- ------------- -->
+                        <section class="highscores-screen">
+                            <h2>Highscores</h2>
+                            <ol>
+                                <li>SJ - 20</li>
+                            </ol>
+                        </section>
+
+                </main>
 
             </div>
-
         
-            <!--main header/quiz intro-->
-        <header class="quiz-intro">
-
-        </header>
-        
-        
-        <!--main content-->
-        <main>
-
-        </main>
-        
-    
-    </div>
+        </div>
     </body>
 </html>
