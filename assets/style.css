@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 
+    /* Debugging */
     border: 1px solid blue;
+    
+    /* Global default font */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 }
 
@@ -21,6 +23,8 @@ p {
 button {
     outline: none;
     background-color: black;
+    color: white;
+    font-size: 1em;
 
 }
 
@@ -29,7 +33,7 @@ button {
 }
 
 .top-bar button {
-    
+    float: right;
 }
 
 
