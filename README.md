@@ -14,7 +14,7 @@ This README contains the following information for the work I have done in this 
 
 This is a screenshot of my second javascript website. The website itself is a 1 minute timed quiz about javascript. After the quiz you can save your score using your initials and try as many times as you want.
 
-![Screenshot (17)](https://user-images.githubusercontent.com/24994854/200442840-3dcc0a5a-57cd-4858-86ae-42b175c85d35.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/24994854/200443121-93044807-4be1-400f-8c6b-f0d222cbc8b0.png)
 
 <h1>My Work</h1>
 
